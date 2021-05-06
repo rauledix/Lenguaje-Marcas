@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+
+#primero {
+	position: relative;
+	background-color: aqua;
+	width: 300px;
+	height: 100px;
+}
+
+#segundo {
+	position: relative;
+	background-color: gray;
+	width: 400px;
+	height: 100px;
+}
+
+#tercero {
+	position: relative;
+	background-color: aqua;
+	width: 500px;
+	height: 100px;
+	top: 100px; /* Con respecto al flujo del documento HTML */
+	left: 100px; /* Con respecto al flujo del documento HTML */
+}
