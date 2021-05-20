@@ -1,0 +1,721 @@
+@charset "UTF-8";
+/* Documento CSS para el index / formulario*/
+
+
+#container {
+	width: 1000px;
+    position: absolute;
+    min-width: 200px;
+    min-height: 400px;
+    left: 12%;
+    right: 12%;
+    max-width: 1000px;
+    max-height: 2000px;
+    top: 2%;
+    bottom: 5%;
+	background-color: #F9F9FA;
+}
+
+header {
+	width: 100%;
+    height: 60px;
+    position: static;
+    margin-bottom: 30px;
+    z-index: 1;
+    background-color: #B5B6B8;
+}
+
+header .title_page {
+    width: 100%%;
+    height: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;
+    height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #000000;
+	margin-top: 4px;
+    margin-bottom: 0;
+}
+
+/* Formulario - datos personales **/
+
+form .datos_personales {
+	width: 96%;
+    margin: 2%;
+	background-color: #DBDBDD;
+}
+
+h2 {
+	font-family: Verdana;
+	font-size: 16px;
+	border: 1px solid #DBDBDD;
+	position: absolute;
+    background-color: #FFFFFF;
+    margin-top: -12px;
+    margin-left: 12px;
+	padding: 2px;
+}
+
+input {
+	height: 16px;
+}
+
+label {
+	height: 16px;
+	margin-bottom: 5px;
+}
+
+select {
+	height: 22px;
+	border-radius: 15px;
+	font-family: Verdana;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+option {
+	font-family: Verdana;
+    font-size: 11px;
+    padding-left: 10px;
+}
+
+form .datos_personales .datos_1 {
+	padding-top: 20px;
+	display: table;
+	clear: both;
+	width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+}
+
+form .datos_personales .datos_1 .insert_datos_apellidos{
+	float: left;
+	width: 40%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+form .datos_personales .datos_1 .insert_datos_nombre{
+	float: left;
+	width: 25%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+form .datos_personales .datos_1 .insert_datos_dni{
+	float: left;
+	width: 25%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+form .datos_personales .datos_1 label {
+	width: 100%;
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+
+form .datos_personales .datos_1 input {
+	width: 100%;
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+form .datos_personales .datos_2 {
+	padding-top: 10px;
+	display: table;
+	clear: both;
+	width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+}
+
+form .datos_personales .datos_2 .insert_datos_local_nacimiento{
+	float: left;
+	width: 40%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+form .datos_personales .datos_2 .insert_datos_provincia_nacimiento{
+	float: left;
+	width: 25%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+form .datos_personales .datos_2 .insert_datos_fecha_nacimiento{
+	float: left;
+	width: 28%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+form .datos_personales .datos_2 label {
+	width: 100%;
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+form .datos_personales .datos_2 input {
+	width: 65%;
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+form .datos_personales .datos_2 .insert_datos_fecha_nacimiento input[type='fecha'][id='fecha_nacimiento'] {
+	width:50%;
+} 
+
+form .datos_personales .datos_3 {
+	padding-top: 10px;
+	display: table;
+	clear: both;
+	width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+}
+
+form .datos_personales .datos_3 .insert_datos_domicilio{
+	float: left;
+	width: 65%;
+	display: inline-grid;
+	margin-right: 20px;
+}
+
+form .datos_personales .datos_3 .insert_datos_codigo_postal{
+	float: left;
+	width: 28%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+form .datos_personales .datos_3 label {
+	width: 100%;
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+form .datos_personales .datos_3 input {
+	width: 101%;
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+form .datos_personales .datos_3 .insert_datos_codigo_postal input[type='numero'][id='codigo_postal'] {
+	width:50%;
+} 
+
+form .datos_personales .datos_4 {
+	padding-top: 10px;
+	display: table;
+	clear: both;
+	width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+	padding-bottom: 20px;
+}
+
+form .datos_personales .datos_4 .insert_datos_localidad{
+	float: left;
+	width: 40%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+form .datos_personales .datos_4 .insert_datos_provincia_domicilio{
+	float: left;
+	width: 25%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+form .datos_personales .datos_4 .insert_datos_telefono{
+	float: left;
+	width: 25%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+form .datos_personales .datos_4 label {
+	width: 100%;
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+form .datos_personales .datos_4 input {
+	width: 65%;
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+form .datos_personales .datos_4 .insert_datos_telefono input[type='numero'][id='telefono'] {
+	width:56%;
+} 
+
+/* Formulario - requisitos de acceso **/
+
+form .requisitos_acceso {
+	width: 96%;
+    margin: 2%;
+	background-color: #FCE45C;
+}
+
+form .requisitos_acceso .acceso_directo {
+	padding-top: 20px;
+	display: table;
+	clear: both;
+	width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+	vertical-align: middle;
+}
+
+form .requisitos_acceso .acceso_prueba {
+	padding-top: 10px;
+	display: table;
+	clear: both;
+	width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+	padding-bottom: 20px;
+}
+
+form .requisitos_acceso span {
+	font-family: Verdana;
+	font-size: 14px;
+	width: 100%;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 10px;
+} 
+
+form .requisitos_acceso input[type='radio'][name='tipo_acceso']{
+	margin:5px;
+	vertical-align: middle;
+} 
+
+form .requisitos_acceso .acceso_directo .acceso_directo_nivel{
+	padding-top: 2px;
+	display: table;
+	clear: both;
+	width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+	text-align: left;
+    vertical-align: middle;
+}
+
+form .requisitos_acceso input[type='radio'][name='acceso_directo']{
+	margin:5px;
+	vertical-align: middle;
+} 
+
+/* Formulario - solicitud **/
+
+form .solicitud {
+	width: 96%;
+    margin: 2%;
+	background-color: #76C3E3;
+}
+
+form .solicitud .admitido {
+	padding-top: 20px;
+	display: table;
+	clear: both;
+	width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+}
+
+form .solicitud .admitido .caso_admision {
+	float: left;
+	width: 100%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+form .solicitud .admitido .insert_ciclo_formativo {
+	float: left;
+	width: 100%;
+	display: initial;
+	margin-right: 10px;
+	padding-top: 10px;
+}
+
+form .solicitud .admitido .caso_admision span {
+	font-family: Verdana;
+	font-size: 14px;
+	width: 100%;
+	height: 16px;
+	vertical-align: middle;
+	margin-top: 0px;
+}
+
+form .solicitud .admitido label{
+	float: left;
+	width: 15%;
+	display: inline-grid;
+	margin-right: 10px;
+	font-family: Verdana;
+	font-size: 14px;
+	vertical-align: middle;
+    text-align: left;
+	margin-bottom: 10px;
+}
+
+form .solicitud .admitido select{
+	float: left;
+	width: 40%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+form .solicitud .no_admitido {
+	padding-top: 10px;
+	display: table;
+	clear: both;
+	width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+	padding-bottom: 20px;
+}
+
+form .solicitud .no_admitido .caso_no_admision {
+	float: left;
+	width: 100%;
+	display: inline-grid;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+form .solicitud .no_admitido .caso_no_admision span {
+	font-family: Verdana;
+	font-size: 14px;
+	width: 100%;
+	height: 16px;
+	vertical-align: middle;
+}
+
+form .solicitud .no_admitido .ciclos_formativos {
+	float: left;
+	width: 40%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+form .solicitud .no_admitido .centros {
+	float: left;
+	width: 25%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+form .solicitud .no_admitido .localidades {
+	float: left;
+	width: 25%;
+	display: inline-grid;
+	margin-right: 10px;
+}
+
+form .solicitud .no_admitido label {
+	width: 100%;
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+form .solicitud .no_admitido input {
+	width: 100%;
+	font-family: Verdana;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+form .solicitud .horario {
+	display: table;
+	clear: both;
+	width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+}
+
+form .solicitud .horario .marcar_horario {
+	font-family: Verdana;
+	font-size: 14px;
+	width: 40%;
+	height: 16px;
+	vertical-align: middle;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+form .solicitud .checkbox-custom_horario {
+	width: 16px;
+	height: 16px;
+}
+
+form .solicitud .checkbox-custom-label_horario {
+	font-family: Verdana;
+	font-size: 14px;
+	width: 100%;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 10px;
+} 
+
+form .solicitud .checkbox-custom_horario, .checkbox-custom-label_horario { 
+    vertical-align: middle;
+    cursor: pointer;
+	float: right;
+}
+
+form .solicitud .checkbox-custom-label_horario {
+	position: absolute;
+}
+
+/* Formulario - documentacion **/
+
+form .documentacion {
+	width: 96%;
+    margin: 2%;
+	background-color: #F87DB7;
+}
+
+form .documentacion .documentos {
+	padding-top: 20px;
+	display: table;
+	clear: both;
+	width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+}
+
+form .documentacion .documentos .documentos_1 {
+	padding-top: 5px;
+	display: table;
+	clear: both;
+	width: 90%;
+	margin-right: 0%;
+    margin-left: 0%;
+	vertical-align: middle;
+}
+
+form .documentacion .documentos .documentos_2 {
+	padding-top: 10px;
+	display: table;
+	clear: both;
+	width: 90%;
+	margin-right: 0%;
+    margin-left: 0%;
+	padding-bottom: 20px;
+}
+
+form .documentacion .checkbox-custom {
+	width: 16px;
+	height: 16px;
+}
+
+form .documentacion .checkbox-custom-label {
+	font-family: Verdana;
+	font-size: 14px;
+	width: 100%;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 10px;
+	margin-left: 25px;
+} 
+
+form .documentacion .documentos .checkbox-custom, .checkbox-custom-label {
+    position: absolute;  
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+form .documentacion .documentos .checkbox-custom-label {
+	position: relative;
+}
+
+/* Formulario - comunicacion **/
+
+form .comunicacion {
+	width: 96%;
+    margin: 2%;
+	background-color: #FC8C22;
+}
+
+form .comunicacion .texto_informacion {
+	padding-top: 20px;
+	display: table;
+	clear: both;
+	width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+}
+
+form .comunicacion .texto_informacion p {
+	font-family: Verdana;
+	font-size: 14px;
+	width: 100%;
+	vertical-align: middle;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: justify;
+	line-height: 20px;
+}
+
+form .comunicacion .texto_informacion ul {
+	margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+form .comunicacion .texto_informacion ul li {
+	font-family: Verdana;
+	font-size: 14px;
+	width: 100%;
+	vertical-align: middle;
+	margin-top: 0px;
+	text-align: justify;
+	line-height: 20px;
+}
+
+form .comunicacion .local_fecha {
+	display: inline-flex;
+	clear: both;
+	width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+	margin-bottom: 2px;
+}
+
+form .comunicacion .local_fecha input {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+form .comunicacion .local_fecha input[type='text'][id='local']{
+	width: 150px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+form .comunicacion .local_fecha input[type='text'][id='dia']{
+	width: 40px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+form .comunicacion .local_fecha input[type='text'][id='mes']{
+	width: 80px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+select[id='ano'] {
+	width: 80px;
+}
+
+form .comunicacion .local_fecha p {
+	margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+	font-family: Verdana;
+    font-size: 14px;
+}
+
+form .comunicacion .firma {
+	display: inline-flex;
+	clear: both;
+	width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+	margin-bottom: 20px;
+	font-family: Verdana;
+    font-size: 14px;
+}
+
+form .comunicacion .firma .solicitante {
+	clear: both;
+    width: 74%;
+    margin-bottom: 20px;
+	margin-right: 5%;
+    font-family: Verdana;
+    font-size: 14px;
+    height: 50%;
+}
+
+form .comunicacion .firma .solicitante span {
+	display: block;
+    margin-top: 120px;
+}
+
+form .comunicacion .firma .registro {
+	clear: both;
+    width: 180px;
+    height: 180px;
+    border: 2px solid #000000;
+    background-color: #FFFFFF;
+    float: right;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+form .comunicacion .firma .registro p {
+	padding-left: 6%;
+    padding-right: 6%;
+}
+
+/* Formulario - informacion extra **/
+
+form .informacion_extra {
+	width: 96%;
+    margin: 2%;
+	background-color: #F9F9FA;
+}
+
+form .informacion_extra .texto_informacion {
+	display: table;
+    clear: both;
+    width: 100%;
+    border-style: dashed;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+form .informacion_extra .texto_informacion p {
+	font-family: Verdana;
+    font-size: 12px;
+    width: 96%;
+    vertical-align: middle;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: justify;
+    line-height: 15px;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+form .informacion_extra .director {
+	font-family: Verdana;
+	font-size: 22px;
+	width: 100%;
+	vertical-align: middle;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 5px;
+	font-weight: bold;
+	color: #000000;
+}
