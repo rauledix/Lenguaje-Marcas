@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Actividad 9.xsl"?>
+<tablas>
+    <Orden>
+        <dataset>
+        <Cliente>Gómez</Cliente>
+        <PC>pc400</PC>
+        </dataset>
+        <dataset>
+        <Cliente>Rosa</Cliente>
+        <PC>pc500</PC>
+        </dataset>
+        <dataset>
+        <Cliente>Carlos</Cliente>
+        <PC>pc600</PC>
+        </dataset>
+    </Orden>
+    <Devoluciones>
+        <dataset>
+        <Proveedor>Imelco</Proveedor>
+        <Parte>pc400</Parte>
+        <Precio>1700</Precio>
+        <Entrega>3</Entrega>
+        </dataset>
+        <dataset>
+        <Proveedor>Dell</Proveedor>
+        <Parte>pc500</Parte>
+        <Precio>2000</Precio>
+    <Entrega>6</Entrega>
+        </dataset>
+    <dataset>
+    <Proveedor>HP</Proveedor>
+     <Parte>pc500</Parte>
+    <Precio>2500</Precio>
+    <Entrega>6</Entrega>
+    </dataset>
+    <dataset>
+    <Proveedor>IX</Proveedor>
+    <Parte>pc500</Parte>
+    <Precio>2000</Precio>
+    <Entrega>3</Entrega>
+    </dataset>
+    <dataset>
+    <Proveedor>IBM</Proveedor>
+    <Parte>pc600</Parte>
+    <Precio>3500</Precio>
+    <Entrega>4</Entrega>
+    </dataset>
+    <dataset>
+    <Proveedor>Votar</Proveedor>
+    <Parte>pc600</Parte>
+    <Precio>2500</Precio>
+    <Entrega>3</Entrega>
+    </dataset>
+     </Devoluciones>
+</tablas>
